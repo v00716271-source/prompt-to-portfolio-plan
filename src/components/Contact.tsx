@@ -62,19 +62,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "vijendarbattapothu@gmail.com",
+      href: "mailto:vijendarbattapothu@gmail.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "8688265816",
+      href: "tel:8688265816",
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Nalgonda, PEDDA ADISHERALA PALLY",
     },
   ];
 
@@ -122,7 +122,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Your Name"
+                    placeholder="VIJENDER"
                     className={errors.name ? "border-destructive" : ""}
                   />
                   {errors.name && (
@@ -139,7 +139,7 @@ const Contact = () => {
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="your.email@example.com"
+                    placeholder="vijendarbattapothu@gmail.com"
                     className={errors.email ? "border-destructive" : ""}
                   />
                   {errors.email && (

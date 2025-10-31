@@ -6,12 +6,12 @@ const About = () => {
     {
       icon: <GraduationCap className="w-6 h-6" />,
       title: "Education",
-      description: "Computer Science Graduate",
+      description: "Diploma in Computer science and engineering",
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
       title: "Experience",
-      description: "3+ Years in Development",
+      description: "2 Years in Development",
     },
     {
       icon: <Award className="w-6 h-6" />,
